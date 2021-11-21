@@ -1,4 +1,4 @@
-//Copyright 2021 Enigma
+//Copyright 2021 Morgan
 
 #ifndef INCLUDE_STUDENT_HPP_
 #define INCLUDE_STUDENT_HPP_

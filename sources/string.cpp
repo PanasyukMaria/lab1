@@ -1,5 +1,4 @@
-//Copyright 2021 Enigma
-
+//Copyright 2021 Morgan
 #include "Student.hpp"
 #include <iomanip>
 #include <utility>
