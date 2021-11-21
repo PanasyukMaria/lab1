@@ -1,20 +1,20 @@
 {
   "items": [
     {
-      "name": "Akakiy Akaki",
-      "group": "2",
-      "avg": "5.25",
+      "name": "Vera Voronova",
+      "group": "33",
+      "avg": "4.25",
       "debt":  [
         "Java",
         "C++",
-        "Games"
+        "Python"
       ]
     },
     {
-      "name": "Ded Asembler",
-      "group": 32,
-      "avg": 3.75,
-      "debt": "asembler"
+      "name": "Peter Parker",
+      "group": 34,
+      "avg": 2.25,
+      "debt": "GoLang"
     }
   ],
   "_meta": {
