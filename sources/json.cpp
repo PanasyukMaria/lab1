@@ -1,7 +1,6 @@
 //Copyright 2021 Morgan
 
 #include <Student.hpp>
-#include "Student.hpp"
 
 json takeJson(int argc, char** argv) {
   if (argc < 2) throw std::runtime_error{"The file path was not passed"};

@@ -1,7 +1,5 @@
 #include "Student.hpp"
 
-
-
 int main(int argc, char** argv)
 {
  nlohmann::json data = takeJson(argc, argv);

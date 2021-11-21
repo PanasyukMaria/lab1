@@ -12,10 +12,6 @@
 
 using nlohmann::json;
 
-
-json takeJson(int argc, char** argv);
-
-
 struct Student {
  public:
   Student();
@@ -27,19 +23,16 @@ struct Student {
   std::any debt;
 };
 
-
 void print(Student& student, std::ostream& os);
-
 
 void print(std::string s1, std::string s2,
            std::string s3, std::string s4, std::ostream& os);
 
-
 void print(std::vector<Student>& students, std::ostream& os);
-
 
 void from_json(const json& j, Student& s);
 
-
 std::vector<Student> parsingJson(json& data);
+
+json takeJson(int argc, char** argv);
 #endif  //INCLUDE_STUDENT_HPP_
