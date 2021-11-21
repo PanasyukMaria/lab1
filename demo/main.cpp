@@ -1,7 +1,5 @@
-#include "iostream"
-#include "header.hpp"
 #include "Student.hpp"
-#include <vector>
+
 
 
 int main(int argc, char** argv)

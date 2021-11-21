@@ -3,10 +3,18 @@
 #ifndef INCLUDE_STUDENT_HPP_
 #define INCLUDE_STUDENT_HPP_
 
-#include "header.hpp"
-#include <vector>
 #include <string>
+#include <any>
+#include <iostream>
+#include <fstream>
+#include <nlohmann/json.hpp>
+#include <vector>
+
 using nlohmann::json;
+
+
+json takeJson(int argc, char** argv);
+
 
 struct Student {
  public:

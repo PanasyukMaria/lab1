@@ -1,6 +1,6 @@
 //Copyright 2021 Morgan
 
-#include <header.hpp>
+#include <Student.hpp>
 #include "Student.hpp"
 
 json takeJson(int argc, char** argv) {
