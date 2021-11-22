@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "name": "Ivanov Ivan",
+      "group": "2",
+      "avg": "6.66",
+      "debt":  [
+        "Java",
+        "Python",
+        "LoL"
+      ]
+    },
+    {
+      "name": "Terr Terr",
+      "group": 32,
+      "avg": 3.75,
+      "debt": "LoL"
+    }
+  ],
+  "_meta": {
+    "count": 3
+  }
+}

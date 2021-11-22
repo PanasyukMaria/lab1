@@ -150,5 +150,20 @@ TEST(errorCheck, lessArgsTest)
     FAIL() << "Expected The file path was not passed";
   }
 }
-
+TEST(errorCheck, _metaCheck)
+{
+  try {
+    std::string path = JSON_DIR;
+    path+="/test2.json";
+    char* argv[] ={(char*)"", (char*)(path.c_str())};
+    nlohmann::json json2 = takeJson(2, argv);
+    FAIL() <<"Expected: _meta value does not match the array size";
+  }
+  catch(std::runtime_error const & err) {
+    EXPECT_EQ(err.what(),std::string("_meta value does not match the array size"));
+  }
+  catch(...) {
+    FAIL() << "Expected: _meta value does not match the array size";
+  }
+}
 #endif // TEST_CPP_
