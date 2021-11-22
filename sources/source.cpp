@@ -9,7 +9,7 @@ json takeJson(int argc, char** argv) {
   if (!jsonFile) throw std::runtime_error{"unable to open json: " + filePath};
   json data;
   jsonFile >> data;
-  std::cout << data << std::endl;
+  //std::cout << data << std::endl;
   if (!data.at("items").is_array())
     throw std::runtime_error{"the array must be contained in the file"};
 
